@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.logo{
+    width:190px;
+    
+}
+
+.user-avatar{
+    width:50px;
+    border-radius:50px; 
+}
+
+.container{
+    width:375px;
+    margin:0 auto;
+    background: pink;
+}
+
+.profile-name{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+     padding:35px 0 10px;
+}
+
+.profile-name p{
+    margin: 5px;
+}
+
+.activities img{
+    width:40px;
+    margin:15px 5px;
+}
+
+.activities p{
+    margin:15px 15px;
+}
+
+.activities img:first-of-type{
+    margin:15px 5px 15px 15px;;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.avatar{
+    margin:0 10px 0 15px;
+    width:60px;
+    border-radius:50px; 
+    border:3px solid purple;
+}
+
+.post img{
+    width:100%;
+    border-top:1px solid #c6c6c6;
+}
